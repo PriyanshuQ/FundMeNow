@@ -10,7 +10,7 @@ const FormField = ({ labelName, placeholder, inputType, isTextArea, value, handl
             <textarea />
         ):(
             <input 
-                
+                required
                 value={value}
                 onChange={handleChange}
                 type={inputType}
