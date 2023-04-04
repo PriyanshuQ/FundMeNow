@@ -39,7 +39,7 @@ const CreateCampaign = () => {
           />
           <FormField
             LabelName="Campaign Title"
-            
+            placeholder="Write a title"
             inputType="text"
             value={form.name}
             handleChange={()=>{}}
