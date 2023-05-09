@@ -31,7 +31,12 @@ const Sidebar = () => {
               key={link.name}
               {...link}
               isActive={isActive}
-              
+              handleClick={() => {
+                if(!link.disabled) {
+                  setIsActive(link.name);
+                  navigate(link.link);
+                }
+              }}
             />
           ))}
         </div>
