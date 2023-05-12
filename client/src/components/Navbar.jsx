@@ -75,7 +75,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <div className='flex mx-4'>
+            <div >
             <CustomButton 
                 btnType="button"
                 title={address ? 'Create a campaign' : 'Connect'}
